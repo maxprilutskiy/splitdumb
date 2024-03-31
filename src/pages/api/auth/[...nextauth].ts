@@ -3,7 +3,7 @@ import NextAuth from "next-auth";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import GoogleProvider from "next-auth/providers/google";
 import prisma from "../../../lib/prisma";
-import { EmailConfig } from "next-auth/src/providers/email";
+import { EmailConfig } from "next-auth/providers/email";
 import { sendEmail } from "../../../lib/email-providers";
 import { sha256 } from "js-sha256";
 
